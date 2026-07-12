@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: app-config
+  namespace: projet-final
+data:
+  # L'URL utilisée par le frontend pour joindre le backend
+  BACKEND_URL: "http://backend-service:5000"

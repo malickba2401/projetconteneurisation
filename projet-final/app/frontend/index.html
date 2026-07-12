@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projet Final Kubernetes - Premium</title>
+    <!-- Chargement du fichier CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Police de caractères moderne -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Éléments de fond décoratifs animés -->
+    <div class="blob blob-1"></div>
+    <div class="blob blob-2"></div>
+
+    <div class="container">
+        <div class="card">
+            <header>
+                <h1>Cloud Native</h1>
+                <p>Architecture Kubernetes • Frontend & Backend API • Redis</p>
+            </header>
+            
+            <main>
+                <div class="action-area">
+                    <button id="fetch-btn">Interroger l'API K8s</button>
+                </div>
+                
+                <div class="result-area" id="result-box">
+                    <p id="result-text">En attente d'une action...</p>
+                    <div class="visits-area">
+                        Requêtes traitées : <strong id="visits-count">0</strong>
+                    </div>
+                </div>
+            </main>
+        </div>
+    </div>
+
+    <!-- Chargement du script applicatif -->
+    <script src="script.js"></script>
+</body>
+</html>
